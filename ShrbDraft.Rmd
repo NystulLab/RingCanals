@@ -1,0 +1,57 @@
+---
+title: "Shrb(RNAi) Phenotype Penetrance 1"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(viridis)
+library(ggprism)
+```
+```{r}
+Shrb <- read.csv("../Data/ShrbRNAiPhenotypePenetrance.csv")
+```
+
+```{r}
+Shrb.summary <- Shrb %>% group_by(Repeat, Genotype) %>% summarize(yes = sum(Phenotype == "Yes"), n = n(), percent = yes/n)
+```
+
+```{r}
+ggplot(Shrb.summary, aes(x = Genotype, y = percent)) +
+  geom_boxplot() +
+  geom_point() +
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.5)) +
+  #theme_prism() +
+  labs(x = "", y = "")
+```
+
+```{r}
+p <- ggplot(Shrb.summary, aes(x = Genotype, y = percent)) +
+  xlab("Genotype") +
+  ylab("Phenotype Penetrance (%)")
+p +
+  #th +
+  geom_bar(aes(fill = Genotype), stat = "identity") +
+  scale_fill_brewer(palette = "Set1")
+```
+
+```{r}
+Shrb.summary <- Shrb %>% group_by(Repeat, Genotype, Phenotype) %>% summarise(n = n()) %>% mutate(percent = n/sum(n))
+Shrb.yes <- Shrb.summary %>% filter(Phenotype == "Yes") 
+```
+
+```{r}
+Control <- data.frame(Genotype = "Control", Phenotype = "Yes", n = 1, percent = 0)
+Shrb.yes <- rbind(Shrb.yes, Control)
+```
+
+```{r}
+ggplot(Shrb.yes, aes(x = Genotype, y = percent)) +
+  geom_boxplot() +
+  geom_point() +
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.5)) +
+  theme_prism() +
+  labs(x = "", y = "")
+```
+
