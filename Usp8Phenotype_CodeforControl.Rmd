@@ -1,0 +1,34 @@
+---
+title: "Phenotype Penetrance of Usp8(RNAi)"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+Usp8Phenotype <- read.csv("../Data/Usp8RNAiPhenotypePenetrance.csv")
+```
+
+```{r}
+Usp8_Phenotype.summary <- Usp8Phenotype %>% group_by(Repeat, Genotype, Phenotype) %>% summarise(n = n()) %>% mutate(percent = n/sum(n)) 
+Usp8_Phenotype.yes <- Usp8_Phenotype.summary %>% filter(Phenotype == "Yes") 
+```
+
+```{r}
+Control <- data.frame(Genotype = "Control", Phenotype = "Yes", n = 1, percent = 0)
+Usp8_Phenotype.yes <- rbind(Usp8_Phenotype.yes, Control)
+```
+
+
+```{r}
+ggplot(data = Usp8_Phenotype.yes, aes(x = Genotype, y = percent)) + 
+  geom_boxplot() + 
+  geom_point() +
+  scale_y_continuous(labels = scales::percent, limits = c(0, 0.5))
+```
+
+
+
