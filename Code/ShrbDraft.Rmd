@@ -1,14 +1,14 @@
 ---
 title: "Shrb(RNAi) Phenotype Penetrance 1"
-output: html_notebook
 ---
 
-```{r}
+```{r, message=FALSE}
 library(tidyverse)
 library(dplyr)
 library(viridis)
 library(ggprism)
 ```
+
 ```{r}
 Shrb <- read.csv("../Data/ShrbRNAiPhenotypePenetrance.csv")
 ```
@@ -21,8 +21,8 @@ Shrb.summary <- Shrb %>% group_by(Repeat, Genotype) %>% summarize(yes = sum(Phen
 ggplot(Shrb.summary, aes(x = Genotype, y = percent)) +
   geom_boxplot() +
   geom_point() +
-  scale_y_continuous(labels = scales::percent, limits = c(0,0.5)) +
-  #theme_prism() +
+  scale_y_continuous(labels = scales::percent, limits = c(0,1)) +
+  theme_prism() +
   labs(x = "", y = "")
 ```
 
@@ -50,7 +50,7 @@ Shrb.yes <- rbind(Shrb.yes, Control)
 ggplot(Shrb.yes, aes(x = Genotype, y = percent)) +
   geom_boxplot() +
   geom_point() +
-  scale_y_continuous(labels = scales::percent, limits = c(0,0.5)) +
+  scale_y_continuous(labels = scales::percent, limits = c(0,1)) +
   theme_prism() +
   labs(x = "", y = "")
 ```
