@@ -1,9 +1,8 @@
 ---
 title: "Phenotype Penetrance of Usp8(RNAi)"
-output: html_notebook
 ---
 
-```{r}
+```{r message=FALSE}
 library(tidyverse)
 library(dplyr)
 ```
@@ -22,6 +21,9 @@ Control <- data.frame(Genotype = "Control", Phenotype = "Yes", n = 1, percent = 
 Usp8_Phenotype.yes <- rbind(Usp8_Phenotype.yes, Control)
 ```
 
+```{r}
+Usp8_Phenotype.yes$Genotype <- factor(Usp8_Phenotype.yes$Genotype, levels = c("Control", ";Usp8(RNAi);", ";;Usp8(RNAi)"))
+```
 
 ```{r}
 ggplot(data = Usp8_Phenotype.yes, aes(x = Genotype, y = percent)) + 

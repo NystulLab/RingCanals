@@ -1,10 +1,9 @@
 ---
 title: "Usp8(RNAi) phenotype penetrance pt.1"
-output: html_notebook
 ---
 These are the quantifications summarizing the phenotype penetance of usp8(RNAi) in the follicle lineage, from experiments dating from 12/2022 to 05/2023. 
 
-```{r}
+```{r message=FALSE}
 library(tidyverse)
 library(dplyr)
 library(viridis)
@@ -19,6 +18,10 @@ Usp8 <- read.csv("../Data/Usp8RNAiPhenotypePenetrance.csv")
 ```{r}
 Usp8.summary <- Usp8 %>% group_by(Repeat, Genotype) %>% summarize(yes = sum(Phenotype == "Yes"), n = n(), percent = yes/n)
 ```
+```{r}
+Usp8.summary$Genotype <- factor(Usp8.summary$Genotype, levels = c("Control", ";Usp8(RNAi);", ";;Usp8(RNAi)"))
+```
+
 
 ```{r}
 ggplot(data = Usp8.summary, aes(x = Genotype, y = percent, fill = Genotype)) + 
