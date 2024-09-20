@@ -1,0 +1,34 @@
+---
+title: "Quantifying RC markers (known in the germline) to vsg/pav in the follicle cell lineage "
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(tidyverse)
+library(dplyr)
+library(viridis)
+library(ggprism)
+library(RColorBrewer)
+```
+
+```{r}
+pnut <- read.csv("../Data/RCAntibodyQuantification_pnut1.csv")
+```
+
+```{r}
+pnut <- pnut %>% select(c(Genotype, Region, RingCanal))
+```
+
+```{r}
+pnut.summary <- pnut %>% group_by(Genotype, Region) %>% summarise(RingCanalmean = mean(RingCanal), RingCanalSD = sd(RingCanal))
+```
+
+
+```{r}
+ggplot(pnut, aes(x = Region, y = RingCanal, fill = Genotype)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_point(position=position_dodge(width=0.75))
+  
+```
+

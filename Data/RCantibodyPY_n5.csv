@@ -1,0 +1,21 @@
+Date Imaged,Genotype,Germarium,Antibody,Region,RingCanals,Colocalize
+20230517,pav::mcherry,2,PY,IIb,14,1
+20230517,pav::mcherry,2,PY,III,13,0
+20230517,pav::mcherry,3,PY,IIb,14,2
+20230517,pav::mcherry,3,PY,III,12,2
+20230517,pav::mcherry,4,PY,IIb,19,2
+20230517,pav::mcherry,4,PY,III,5,0
+20230517,pav::mcherry,5,PY,IIb,14,2
+20230517,pav::mcherry,5,PY,III,10,0
+20230510,pav::mcherry,1,PY,IIb,9,0
+20230510,pav::mcherry,1,PY,III,8,1
+20230516,vsg::GFP,3,PY,IIb,20,10
+20230516,vsg::GFP,3,PY,III,21,16
+20230517,vsg::GFP,13,PY,IIb,16,10
+20230517,vsg::GFP,13,PY,III,21,13
+20230522,vsg::GFP,14,PY,IIb,23,5
+20230522,vsg::GFP,14,PY,III,17,5
+20230522,vsg::GFP,11,PY,IIb,17,5
+20230522,vsg::GFP,11,PY,III,17,3
+20230522,vsg::GFP,13,PY,IIb,20,3
+20230522,vsg::GFP,13,PY,III,16,5

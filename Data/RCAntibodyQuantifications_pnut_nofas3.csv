@@ -1,0 +1,41 @@
+Date,Genotype,Germarium,Marker,Region,RingCanal,Colocalization,,Notes
+20230322,vsg::GFP,2,pnut,2b,17,13,,this sample was hard to see RC due to background
+20230322,vsg::GFP,2,pnut,3,10,7,,
+20230322,vsg::GFP,4,pnut,2b,13,9,,
+20230322,vsg::GFP,4,pnut,3,11,8,,
+20230322,vsg::GFP,5,pnut,2b,7,5,,
+20230322,vsg::GFP,5,pnut,3,9,7,,
+20230322,vsg::GFP,6,pnut,2b,11,8,,
+20230322,vsg::GFP,6,pnut,3,10,7,,
+20230322,vsg::GFP,7,pnut,2b,14,10,,
+20230322,vsg::GFP,7,pnut,3,10,8,,
+20230322,vsg::GFP,8,pnut,2b,12,8,,"pnut ring with vsg, and ring without vsg in vicinity"
+20230322,vsg::GFP,8,pnut,3,11,10,,
+20230529,vsg::GFP,1,pnut,2b,21,12,,"has (2) rings with only pnut positive, and others merged"
+20230529,vsg::GFP,1,pnut,3,17,11,,"has 2-3 rings with pnut only, region 3 has overlap of pnut and vsg rings"
+20230801,vsg::GFP,2,pnut,2b,14,7,,
+20230801,vsg::GFP,2,pnut,3,12,5,,
+20230516,vsg::GFP,1,pnut,2b,12,6,,
+20230516,vsg::GFP,1,pnut,3,17,7,,
+20230516,vsg::GFP,2,pnut,2b,16,7,,
+20230516,vsg::GFP,2,pnut,3,7,6,,
+20230510,pav::mcherry,0,pnut,2b,31,18,,rings present showing colocalization. Rings showing pnut positive rings/RC negative
+20230510,pav::mcherry,0,pnut,3,20,13,,
+20230508,pav::mcherry,2,pnut,2b,20,13,,jpeg showing colocalization in 2b region
+20230508,pav::mcherry,2,pnut,3,8,5,,
+20230510,pav::mcherry,2,pnut,2b,,,,
+20230510,pav::mcherry,2,pnut,3,,,,
+20230510,pav::mcherry,3,pnut,2b,18,9,,"2b/St.1 border rings --> ring canal colocalization, ""stalk"" RCs"
+20230510,pav::mcherry,3,pnut,3,11,7,,Region 3 has bigger pnut ring surrounding pav ring
+20230801,pav::mcherry,1,pnut,2b,19,7,,
+20230801,pav::mcherry,1,pnut,3,11,7,,
+20230801,pav::mcherry,5,pnut,2b,7,3,,jpeg available for pav without lumen(image quality) with clear pnut ring
+20230801,pav::mcherry,5,pnut,3,7,6,,
+20230516,pav::mcherry,1,pnut,2b,12,6,,
+20230516,pav::mcherry,1,pnut,3,17,7,,
+20230516,pav::mcherry,2,pnut,2b,16,6,,
+20230516,pav::mcherry,2,pnut,3,7,6,,
+20230510,pav::mcherry,1,pnut,2b,10,6,,
+20230510,pav::mcherry,1,pnut,3,14,9,,
+20230510,pav::mcherry,4,pnut,2b,15,11,,
+20230510,pav::mcherry,4,pnut,3,16,11,,

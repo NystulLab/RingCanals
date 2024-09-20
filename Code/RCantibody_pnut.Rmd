@@ -1,0 +1,58 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(tidyverse)
+library(tidyverse)
+library(dplyr)
+library(viridis)
+library(ggprism)
+library(RColorBrewer)
+```
+
+```{r}
+pnut1 <- read.csv("../Data/RCAntibodyQuantification_pnut1.csv")
+```
+
+```{r}
+pnut1 <- pnut1 %>% select(c(Genotype, Region, RingCanal, Colocalization))
+```
+
+```{r}
+pnut1$Percent <- pnut1$Colocalization / pnut1$RingCanal
+```
+
+```{r}
+pnut1_R2<- pnut1 %>% filter(Region == "Two")
+```
+
+
+```{r}
+ggplot(pnut1_R2, aes(x = Genotype, y = Colocalization)) +
+  geom_boxplot() +
+  geom_point()
+```
+
+
+```{r}
+ggplot(pnut1_R2, aes(x = Genotype, y = Percent)) +
+  geom_boxplot() +
+  geom_point()
+```
+
+```{r}
+pnut1$Region <- grepl("Two", pnut1$Region, ignore.case = TRUE)
+```
+
+```{r}
+pnut1$Region <- factor(pnut1$Region, levels = c("Two", "Three"))
+```
+
+```{r}
+ggplot(pnut1, aes(x = Genotype, y = Percent, fill = Region)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_point(position = position_dodge(width = 0.75))
+```
+
+

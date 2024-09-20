@@ -1,0 +1,41 @@
+Date,Genotype,Germarium,Marker,Region,RingCanal,Colocalization,,Notes
+20230322,vsg::GFP,2,pnut,Two,17,13,,this sample was hard to see RC due to background
+20230322,vsg::GFP,2,pnut,Three,10,7,,
+20230322,vsg::GFP,4,pnut,Two,13,9,,
+20230322,vsg::GFP,4,pnut,Three,11,8,,
+20230322,vsg::GFP,5,pnut,Two,7,5,,
+20230322,vsg::GFP,5,pnut,Three,9,7,,
+20230322,vsg::GFP,6,pnut,Two,11,8,,
+20230322,vsg::GFP,6,pnut,Three,10,7,,
+20230322,vsg::GFP,7,pnut,Two,14,10,,
+20230322,vsg::GFP,7,pnut,Three,10,8,,
+20230322,vsg::GFP,8,pnut,Two,12,8,,"pnut ring with vsg, and ring without vsg in vicinity"
+20230322,vsg::GFP,8,pnut,Three,11,10,,
+20230529,vsg::GFP,1,pnut,Two,21,12,,"has (2) rings with only pnut positive, and others merged"
+20230529,vsg::GFP,1,pnut,Three,17,11,,"has 2-3 rings with pnut only, region 3 has overlap of pnut and vsg rings"
+20230801,vsg::GFP,2,pnut,Two,14,7,,
+20230801,vsg::GFP,2,pnut,Three,12,5,,
+20230516,vsg::GFP,1,pnut,Two,12,6,,
+20230516,vsg::GFP,1,pnut,Three,17,7,,
+20230516,vsg::GFP,2,pnut,Two,16,7,,
+20230516,vsg::GFP,2,pnut,Three,7,6,,
+20230510,pav::mcherry,0,pnut,Two,31,18,,rings present showing colocalization. Rings showing pnut positive rings/RC negative
+20230510,pav::mcherry,0,pnut,Three,20,13,,
+20230508,pav::mcherry,2,pnut,Two,20,13,,jpeg showing colocalization in 2b region
+20230508,pav::mcherry,2,pnut,Three,8,5,,
+20230510,pav::mcherry,2,pnut,Two,22,10,,
+20230510,pav::mcherry,2,pnut,Three,11,8,,
+20230510,pav::mcherry,3,pnut,Two,18,9,,"2b/St.1 border rings --> ring canal colocalization, ""stalk"" RCs"
+20230510,pav::mcherry,3,pnut,Three,11,7,,Region 3 has bigger pnut ring surrounding pav ring
+20230801,pav::mcherry,1,pnut,Two,19,7,,
+20230801,pav::mcherry,1,pnut,Three,11,7,,
+20230801,pav::mcherry,5,pnut,Two,7,3,,jpeg available for pav without lumen(image quality) with clear pnut ring
+20230801,pav::mcherry,5,pnut,Three,7,6,,
+20230516,pav::mcherry,1,pnut,Two,12,6,,
+20230516,pav::mcherry,1,pnut,Three,17,7,,
+20230516,pav::mcherry,2,pnut,Two,16,6,,
+20230516,pav::mcherry,2,pnut,Three,7,6,,
+20230510,pav::mcherry,1,pnut,Two,10,6,,
+20230510,pav::mcherry,1,pnut,Three,14,9,,
+20230510,pav::mcherry,4,pnut,Two,15,11,,
+20230510,pav::mcherry,4,pnut,Three,16,11,,

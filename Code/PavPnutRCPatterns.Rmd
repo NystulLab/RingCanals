@@ -1,0 +1,42 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(viridis)
+library(ggprism)
+library(RColorBrewer)
+```
+
+```{r}
+PavPnut <- read.csv("../RingCanal/Data/PavPnutRCPatterns.csv")
+```
+
+```{r}
+PavPnut <- PavPnut %>% select(FileName, RingCanal, Marker, Region, Category, Frequency) 
+```
+
+```{r}
+level_order <- c('TwoB', 'Three')
+
+ggplot(PavPnut, aes(x = Region, y = Frequency, fill = Category)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_point(position=position_dodge(width=0.75)) +
+  theme_prism(base_size = 10) +
+  scale_x_discrete(limits=level_order, labels=c('2b', '3')) +
+  scale_fill_brewer(palette = "Blues") +
+  xlab("Regions within Germarium") +
+  ylab("Frequency of Patterns") +
+  theme (
+    axis.text = element_text(size = 22, face = "bold"),
+    axis.title = element_text(size = 22, face = "bold"),
+    legend.text = element_text(size = 10, face = "bold")
+  ) 
+
+  ggsave("../RingCanal/Results/PavPnutRCCounts.pdf", width = 210, height = 115, units = "mm")
+```
+
+

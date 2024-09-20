@@ -1,9 +1,10 @@
 ---
 title: "Usp8(RNAi) phenotype penetrance pt.1"
+output: html_notebook
 ---
 These are the quantifications summarizing the phenotype penetance of usp8(RNAi) in the follicle lineage, from experiments dating from 12/2022 to 05/2023. 
 
-```{r message=FALSE}
+```{r}
 library(tidyverse)
 library(dplyr)
 library(viridis)
@@ -27,8 +28,8 @@ Usp8.summary$Genotype <- factor(Usp8.summary$Genotype, levels = c("Control", ";U
 ggplot(data = Usp8.summary, aes(x = Genotype, y = percent, fill = Genotype)) + 
   geom_boxplot() + 
   geom_point() +
-  #theme_prism(base_size = 12) +
-  scale_x_discrete(labels=c('Usp8(RNAi)II', 'Usp8(RNAi)III', 'Control')) +
+  theme_prism(base_size = 12) +
+  scale_x_discrete(labels=c('Control', 'Usp8(RNAi)II', 'Usp8(RNAi)III')) +
   scale_y_continuous(labels = scales::percent, limits = c(0, 0.5)) +
    labs(x = "Genotype", y = "Phenotype Penetrance (%)") +
  scale_fill_brewer("Blues") 

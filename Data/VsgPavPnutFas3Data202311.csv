@@ -1,0 +1,37 @@
+,Genotype,Germarium,Marker,Region,RC,Pnut,Both,Fas3?,Notes
+20231030,vsg::GFP,0,pnut,Two,17,7,0,w/ fas3,cytoplasmic vsg ring example
+20231030,vsg::GFP,0,pnut,Three,11,9,2,w/ fas3,
+20231030,vsg::GFP,1,pnut,Two,16,2,0,w/ fas3,
+20231030,vsg::GFP,1,pnut,Three,13,4,3,w/ fas3,
+20231030,vsg::GFP,2,pnut,Two,14,0,0,w/ fas3,
+20231030,vsg::GFP,2,pnut,Three,8,2,0,w/ fas3,
+20231030,vsg::GFP,3,pnut,Two,13,5,0,w/ fas3,
+20231030,vsg::GFP,3,pnut,Three,9,4,0,w/ fas3,
+20231030,vsg::GFP,4,pnut,Two,18,8,0,w/ fas3,
+20231030,vsg::GFP,4,pnut,Three,10,4,0,w/ fas3,
+20231030,vsg::GFP,5,pnut,Two,11,0,0,w/ fas3,
+20231030,vsg::GFP,5,pnut,Three,9,6,2,w/ fas3,
+20231030,vsg::GFP,6,pnut,Two,11,3,0,w/ fas3,
+20231030,vsg::GFP,6,pnut,Three,12,2,0,w/ fas3,
+20231030,vsg::GFP,7,pnut,Two,13,3,0,w/ fas3,
+20231030,vsg::GFP,7,pnut,Three,10,3,0,w/ fas3,
+20231030,vsg::GFP,8,pnut,Two,9,2,1,w/ fas3,
+20231030,vsg::GFP,8,pnut,Three,11,2,2,w/ fas3,
+20231031,pav::mcherry,0,pnut,Two,10,3,2,w/ fas3,
+20231031,pav::mcherry,0,pnut,Three,10,1,2,w/ fas3,
+20231031,pav::mcherry,4,pnut,Two,13,2,3,w/ fas3,
+20231031,pav::mcherry,4,pnut,Three,10,3,0,w/ fas3,
+20231031,pav::mcherry,5,pnut,Two,7,1,2,w/ fas3,
+20231031,pav::mcherry,5,pnut,Three,7,0,2,w/ fas3,
+20231031,pav::mcherry,6,pnut,Two,13,0,2,w/ fas3,
+20231031,pav::mcherry,6,pnut,Three,14,1,2,w/ fas3,region 3 has midbody with pnut ring
+20231031,pav::mcherry,7,pnut,Two,13,2,4,w/ fas3,pnut ring offset with pav structure in R3
+20231031,pav::mcherry,7,pnut,Three,9,4,2,w/ fas3,
+20231031,pav::mcherry,8,pnut,Two,11,2,5,w/ fas3,
+20231031,pav::mcherry,8,pnut,Three,12,5,3,w/ fas3,"pnut ring only w/ pav midbody, off center colocalization, fas3 ring with no pav, pnut with pav dot"
+20231031,pav::mcherry,9,pnut,Two,14,3,2,w/ fas3,
+20231031,pav::mcherry,9,pnut,Three,12,2,3,w/ fas3,
+20231031,pav::mcherry,3,pnut,Two,14,0,3,w/ fas3,
+20231031,pav::mcherry,3,pnut,Three,10,2,2,w/ fas3,midbody with pnut midbody-like structures 
+20231031,pav::mcherry,,pnut,Two,9,1,2,w/ fas3,
+20231031,pav::mcherry,,pnut,Three,5,2,,w/ fas3,hard to visualize midbody vs mature ring canal
