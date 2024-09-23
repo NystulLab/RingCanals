@@ -12,7 +12,7 @@ library(RColorBrewer)
 ```
 
 ```{r}
-Shrb3 <- read.csv("../RingCanal/Data/ShrbRNAiPhenotypePenetrance2_allrepeats.csv")
+Shrb3 <- read.csv("../Data/ShrbRNAiPhenotypePenetrance2_allrepeats.csv")
 ```
 
 ```{r}
