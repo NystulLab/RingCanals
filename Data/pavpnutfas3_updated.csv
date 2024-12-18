@@ -1,0 +1,265 @@
+Date,FileName,Rcmarker,Category,Region,Count
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_rings_only,TwoB,17
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_rings_only,Three,5
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pnut_rings_only,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pnut_rings_only,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pavrings_pnutrings,TwoB,7
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pavrings_pnutrings,Three,5
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_pnut_nonring,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_pnut_nonring,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_midbody_only,TwoB,1
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_midbody_only,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_nonring_structure,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_002,pav::mcherry,pav_nonring_structure,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_rings_only,TwoB,9
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_rings_only,Three,13
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pnut_rings_only,TwoB,2
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pnut_rings_only,Three,1
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pavrings_pnutrings,TwoB,8
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pavrings_pnutrings,Three,9
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_pnut_nonring,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_pnut_nonring,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_midbody_only,TwoB,1
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_midbody_only,Three,1
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_nonring_structure,TwoB,1
+7/8/24,pavmcherry_pnut_fas3_20240708_003,pav::mcherry,pav_nonring_structure,Three,1
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_rings_only,TwoB,8
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_rings_only,Three,8
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pnut_rings_only,TwoB,1
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pnut_rings_only,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pavrings_pnutrings,TwoB,8
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pavrings_pnutrings,Three,5
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_pnut_nonring,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_pnut_nonring,Three,4
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_midbody_only,TwoB,1
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_midbody_only,Three,1
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_nonring_structure,TwoB,2
+7/8/24,pavmcherry_pnut_fas3_20240708_004,pav::mcherry,pav_nonring_structure,Three,1
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_rings_only,TwoB,10
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_rings_only,Three,9
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pnut_rings_only,TwoB,2
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pnut_rings_only,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pavrings_pnutrings,TwoB,4
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pavrings_pnutrings,Three,2
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_pnut_nonring,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_pnut_nonring,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_midbody_only,TwoB,2
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_midbody_only,Three,1
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_nonring_structure,TwoB,0
+7/8/24,pavmcherry_pnut_fas3_20240708_005,pav::mcherry,pav_nonring_structure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_rings_only,TwoB,31
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_rings_only,Three,12
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pnut_rings_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pnut_rings_only,Three,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pavrings_pnutrings,TwoB,4
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pavrings_pnutrings,Three,3
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_pnut_nonring,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_pnut_nonring,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_midbody_only,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_midbody_only,Three,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pavmidbody_pnutstructure,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pavmidbody_pnutstructure,Three,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_nonring_structure,TwoB,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_",pav::mcherry,pav_nonring_structure,Three,4
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_rings_only,TwoB,12
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_rings_only,Three,9
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pnut_rings_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pnut_rings_only,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pavrings_pnutrings,TwoB,6
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pavrings_pnutrings,Three,6
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_pnut_nonring,TwoB,5
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_pnut_nonring,Three,4
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_midbody_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_midbody_only,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_nonring_structure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_001",pav::mcherry,pav_nonring_structure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_rings_only,TwoB,10
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_rings_only,Three,10
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pnut_rings_only,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pnut_rings_only,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pavrings_pnutrings,TwoB,6
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pavrings_pnutrings,Three,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_pnut_nonring,TwoB,5
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_pnut_nonring,Three,4
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_midbody_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_midbody_only,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_nonring_structure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_002",pav::mcherry,pav_nonring_structure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_rings_only,TwoB,28
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_rings_only,Three,19
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pnut_rings_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pnut_rings_only,Three,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pavrings_pnutrings,TwoB,14
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pavrings_pnutrings,Three,3
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_pnut_nonring,TwoB,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_pnut_nonring,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_midbody_only,TwoB,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_midbody_only,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pavmidbody_pnutstructure,Three,5
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_nonring_structure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_003",pav::mcherry,pav_nonring_structure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_rings_only,TwoB,18
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_rings_only,Three,15
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pnut_rings_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pnut_rings_only,Three,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pavrings_pnutrings,TwoB,28
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pavrings_pnutrings,Three,8
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_pnut_nonring,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_pnut_nonring,Three,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_midbody_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_midbody_only,Three,3
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pavmidbody_pnutstructure,Three,4
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_nonring_structure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_004",pav::mcherry,pav_nonring_structure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_rings_only,TwoB,16
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_rings_only,Three,10
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pnut_rings_only,TwoB,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pnut_rings_only,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pavrings_pnutrings,TwoB,12
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pavrings_pnutrings,Three,10
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_pnut_nonring,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_pnut_nonring,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_midbody_only,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_midbody_only,Three,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pavmidbody_pnutstructure,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_nonring_structure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_005",pav::mcherry,pav_nonring_structure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_rings_only,TwoB,34
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_rings_only,Three,18
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pnut_rings_only,TwoB,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pnut_rings_only,Three,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pavrings_pnutrings,TwoB,17
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pavrings_pnutrings,Three,17
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_pnut_nonring,TwoB,5
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_pnut_nonring,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_midbody_only,TwoB,4
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_midbody_only,Three,4
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pavmidbody_pnutstructure,TwoB,8
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pavmidbody_pnutstructure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_nonring_structure,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_006",pav::mcherry,pav_nonring_structure,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_rings_only,TwoB,19
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_rings_only,Three,14
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pnut_rings_only,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pnut_rings_only,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pavrings_pnutrings,TwoB,15
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pavrings_pnutrings,Three,13
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_pnut_nonring,TwoB,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_pnut_nonring,Three,0
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_midbody_only,TwoB,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_midbody_only,Three,2
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pavmidbody_pnutstructure,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pavmidbody_pnutstructure,Three,3
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_nonring_structure,TwoB,1
+7/24/24,"pavmcherry_pnut, fas3, RFP_072024_007",pav::mcherry,pav_nonring_structure,Three,0
+10/31/23,pavpnutfas3,pav::mcherry,pav_rings_only,TwoB,20
+10/31/23,pavpnutfas3,pav::mcherry,pav_rings_only,Three,18
+10/31/23,pavpnutfas3,pav::mcherry,pnut_rings_only,TwoB,7
+10/31/23,pavpnutfas3,pav::mcherry,pnut_rings_only,Three,1
+10/31/23,pavpnutfas3,pav::mcherry,pavrings_pnutrings,TwoB,6
+10/31/23,pavpnutfas3,pav::mcherry,pavrings_pnutrings,Three,12
+10/31/23,pavpnutfas3,pav::mcherry,pav_pnut_nonring,TwoB,0
+10/31/23,pavpnutfas3,pav::mcherry,pav_pnut_nonring,Three,0
+10/31/23,pavpnutfas3,pav::mcherry,pav_midbody_only,TwoB,3
+10/31/23,pavpnutfas3,pav::mcherry,pav_midbody_only,Three,7
+10/31/23,pavpnutfas3,pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+10/31/23,pavpnutfas3,pav::mcherry,pavmidbody_pnutstructure,Three,2
+10/31/23,pavpnutfas3,pav::mcherry,pav_nonring_structure,TwoB,0
+10/31/23,pavpnutfas3,pav::mcherry,pav_nonring_structure,Three,0
+10/31/23,pavpnutfas3001,pav::mcherry,pav_rings_only,TwoB,14
+10/31/23,pavpnutfas3001,pav::mcherry,pav_rings_only,Three,8
+10/31/23,pavpnutfas3001,pav::mcherry,pnut_rings_only,TwoB,0
+10/31/23,pavpnutfas3001,pav::mcherry,pnut_rings_only,Three,0
+10/31/23,pavpnutfas3001,pav::mcherry,pavrings_pnutrings,TwoB,4
+10/31/23,pavpnutfas3001,pav::mcherry,pavrings_pnutrings,Three,8
+10/31/23,pavpnutfas3001,pav::mcherry,pav_pnut_nonring,TwoB,0
+10/31/23,pavpnutfas3001,pav::mcherry,pav_pnut_nonring,Three,0
+10/31/23,pavpnutfas3001,pav::mcherry,pav_midbody_only,TwoB,3
+10/31/23,pavpnutfas3001,pav::mcherry,pav_midbody_only,Three,0
+10/31/23,pavpnutfas3001,pav::mcherry,pavmidbody_pnutstructure,TwoB,2
+10/31/23,pavpnutfas3001,pav::mcherry,pavmidbody_pnutstructure,Three,0
+10/31/23,pavpnutfas3001,pav::mcherry,pav_nonring_structure,TwoB,0
+10/31/23,pavpnutfas3001,pav::mcherry,pav_nonring_structure,Three,0
+10/31/23,pavpnutfas3002,pav::mcherry,pav_rings_only,TwoB,15
+10/31/23,pavpnutfas3002,pav::mcherry,pav_rings_only,Three,10
+10/31/23,pavpnutfas3002,pav::mcherry,pnut_rings_only,TwoB,0
+10/31/23,pavpnutfas3002,pav::mcherry,pnut_rings_only,Three,0
+10/31/23,pavpnutfas3002,pav::mcherry,pavrings_pnutrings,TwoB,7
+10/31/23,pavpnutfas3002,pav::mcherry,pavrings_pnutrings,Three,6
+10/31/23,pavpnutfas3002,pav::mcherry,pav_pnut_nonring,TwoB,0
+10/31/23,pavpnutfas3002,pav::mcherry,pav_pnut_nonring,Three,0
+10/31/23,pavpnutfas3002,pav::mcherry,pav_midbody_only,TwoB,0
+10/31/23,pavpnutfas3002,pav::mcherry,pav_midbody_only,Three,1
+10/31/23,pavpnutfas3002,pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+10/31/23,pavpnutfas3002,pav::mcherry,pavmidbody_pnutstructure,Three,0
+10/31/23,pavpnutfas3002,pav::mcherry,pav_nonring_structure,TwoB,0
+10/31/23,pavpnutfas3002,pav::mcherry,pav_nonring_structure,Three,0
+10/31/23,pavpnutfas3003,pav::mcherry,pav_rings_only,TwoB,32
+10/31/23,pavpnutfas3003,pav::mcherry,pav_rings_only,Three,31
+10/31/23,pavpnutfas3003,pav::mcherry,pnut_rings_only,TwoB,1
+10/31/23,pavpnutfas3003,pav::mcherry,pnut_rings_only,Three,0
+10/31/23,pavpnutfas3003,pav::mcherry,pavrings_pnutrings,TwoB,8
+10/31/23,pavpnutfas3003,pav::mcherry,pavrings_pnutrings,Three,2
+10/31/23,pavpnutfas3003,pav::mcherry,pav_pnut_nonring,TwoB,0
+10/31/23,pavpnutfas3003,pav::mcherry,pav_pnut_nonring,Three,0
+10/31/23,pavpnutfas3003,pav::mcherry,pav_midbody_only,TwoB,2
+10/31/23,pavpnutfas3003,pav::mcherry,pav_midbody_only,Three,1
+10/31/23,pavpnutfas3003,pav::mcherry,pavmidbody_pnutstructure,TwoB,2
+10/31/23,pavpnutfas3003,pav::mcherry,pavmidbody_pnutstructure,Three,1
+10/31/23,pavpnutfas3003,pav::mcherry,pav_nonring_structure,TwoB,0
+10/31/23,pavpnutfas3003,pav::mcherry,pav_nonring_structure,Three,0
+10/31/23,pavpnutfas3004,pav::mcherry,pav_rings_only,TwoB,26
+10/31/23,pavpnutfas3004,pav::mcherry,pav_rings_only,Three,24
+10/31/23,pavpnutfas3004,pav::mcherry,pnut_rings_only,TwoB,6
+10/31/23,pavpnutfas3004,pav::mcherry,pnut_rings_only,Three,0
+10/31/23,pavpnutfas3004,pav::mcherry,pavrings_pnutrings,TwoB,13
+10/31/23,pavpnutfas3004,pav::mcherry,pavrings_pnutrings,Three,5
+10/31/23,pavpnutfas3004,pav::mcherry,pav_pnut_nonring,TwoB,0
+10/31/23,pavpnutfas3004,pav::mcherry,pav_pnut_nonring,Three,0
+10/31/23,pavpnutfas3004,pav::mcherry,pav_midbody_only,TwoB,2
+10/31/23,pavpnutfas3004,pav::mcherry,pav_midbody_only,Three,3
+10/31/23,pavpnutfas3004,pav::mcherry,pavmidbody_pnutstructure,TwoB,1
+10/31/23,pavpnutfas3004,pav::mcherry,pavmidbody_pnutstructure,Three,2
+10/31/23,pavpnutfas3004,pav::mcherry,pav_nonring_structure,TwoB,0
+10/31/23,pavpnutfas3004,pav::mcherry,pav_nonring_structure,Three,0
+10/31/23,pavpnutfas3005,pav::mcherry,pav_rings_only,TwoB,15
+10/31/23,pavpnutfas3005,pav::mcherry,pav_rings_only,Three,12
+10/31/23,pavpnutfas3005,pav::mcherry,pnut_rings_only,TwoB,1
+10/31/23,pavpnutfas3005,pav::mcherry,pnut_rings_only,Three,0
+10/31/23,pavpnutfas3005,pav::mcherry,pavrings_pnutrings,TwoB,3
+10/31/23,pavpnutfas3005,pav::mcherry,pavrings_pnutrings,Three,1
+10/31/23,pavpnutfas3005,pav::mcherry,pav_pnut_nonring,TwoB,0
+10/31/23,pavpnutfas3005,pav::mcherry,pav_pnut_nonring,Three,0
+10/31/23,pavpnutfas3005,pav::mcherry,pav_midbody_only,TwoB,0
+10/31/23,pavpnutfas3005,pav::mcherry,pav_midbody_only,Three,0
+10/31/23,pavpnutfas3005,pav::mcherry,pavmidbody_pnutstructure,TwoB,0
+10/31/23,pavpnutfas3005,pav::mcherry,pavmidbody_pnutstructure,Three,0
+10/31/23,pavpnutfas3005,pav::mcherry,pav_nonring_structure,TwoB,3
+10/31/23,pavpnutfas3005,pav::mcherry,pav_nonring_structure,Three,0
+10/31/23,pavpnutfas3006,pav::mcherry,pnut_rings_only,TwoB,22
+10/31/23,pavpnutfas3006,pav::mcherry,pnut_rings_only,Three,18
+10/31/23,pavpnutfas3006,pav::mcherry,pavrings_pnutrings,TwoB,2
+10/31/23,pavpnutfas3006,pav::mcherry,pavrings_pnutrings,Three,0
+10/31/23,pavpnutfas3006,pav::mcherry,pav_pnut_nonring,TwoB,11
+10/31/23,pavpnutfas3006,pav::mcherry,pav_pnut_nonring,Three,7
+10/31/23,pavpnutfas3006,pav::mcherry,pav_midbody_only,TwoB,0
+10/31/23,pavpnutfas3006,pav::mcherry,pav_midbody_only,Three,0
+10/31/23,pavpnutfas3006,pav::mcherry,pavmidbody_pnutstructure,TwoB,2
+10/31/23,pavpnutfas3006,pav::mcherry,pavmidbody_pnutstructure,Three,3
+10/31/23,pavpnutfas3006,pav::mcherry,pav_nonring_structure,TwoB,0
+10/31/23,pavpnutfas3006,pav::mcherry,pav_nonring_structure,Three,0
