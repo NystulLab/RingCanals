@@ -1,0 +1,38 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+sample <- read.csv("../Data/sample.csv")
+```
+```{r}
+sample <- sample %>% pivot_longer(!X, names_to = "Genotype", values_to = "Penetrance")
+```
+
+```{r}
+level_order<-c('RNAi1','RNAi2', 'Control')
+ggplot(sample, aes(x=Genotype,y=Penetrance))+
+  geom_boxplot(aes(fill = Genotype)) + 
+  geom_point() +
+  theme_prism() +
+  scale_x_discrete(limits=level_order) +
+  scale_fill_brewer(palette='Reds') +
+  xlab('Genotype') +
+  ylab('Phenotype Pentrance')
+
+ggsave("../Results/sample.pdf", width = 210, height = 115, units = "mm")                           
+```
+
+
+
+
+```{r}
+ggplot(sample, aes(x = Genotype, y = Penetrance)) + geom_point()
+```
+
+

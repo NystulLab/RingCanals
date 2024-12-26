@@ -1,0 +1,38 @@
+title: "pavmcherry with pnut and fas3"
+output: html_notebook
+Date: 12/18/2024
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(viridis)
+library(ggprism)
+library(RColorBrewer)
+```
+
+```{r}
+updatedpavfas3 <- read.csv("../Data/pavpnutfas3_updated.csv")
+```
+
+```{r}
+updatedpavfas3 <- updatedpavfas3 %>% select(FileName, Rcmarker, Category, Region, Count)
+```
+
+```{r}
+level_order <- c('TwoB', 'Three')
+
+ggplot(updatedpavfas3, aes(x = Region, y = Count, fill = Category)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_point(position=position_dodge(width=0.75)) +
+  theme_prism(base_size = 10) +
+  scale_x_discrete(limits=level_order, labels=c('2b', '3')) +
+  scale_fill_brewer(palette = "Blues") +
+  xlab("Regions within Germarium") +
+  ylab("Frequency of Patterns") +
+  theme (
+    axis.text = element_text(size = 22, face = "bold"),
+    axis.title = element_text(size = 22, face = "bold"),
+    legend.text = element_text(size = 10, face = "bold")
+  ) 
+```
