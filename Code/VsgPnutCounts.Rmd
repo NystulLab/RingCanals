@@ -12,7 +12,7 @@ library(RColorBrewer)
 ```
 
 ```{r}
-VsgPnut <- read.csv("../RingCanal/Data/VsgPnutRCCounts.csv")
+VsgPnut <- read.csv("../Data/VsgPnutRCCounts.csv")
 ```
 
 ```{r}
@@ -39,7 +39,3 @@ ggplot(VsgPnut, aes(x = Region, y = Frequency, fill = Category)) +
 
  ggsave("../Results/VsgPnutRCCounts.pdf", width = 210, height = 115, units = "mm")
 ```
-
-
-```{r}
-)

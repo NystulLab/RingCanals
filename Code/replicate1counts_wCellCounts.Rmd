@@ -1,0 +1,64 @@
+---
+title: "Replicate 1 counts"
+output: html_notebook
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+library(viridis)
+library(ggprism)
+library(RColorBrewer)
+```
+
+```{r}
+Rep1 <- read.csv("../Data/Replicate1_pavvsgfas3.csv")
+CellCounts <- read.csv("../Data/Replicate1_RC_withCellCounts.csv")
+```
+
+```{r}
+CellCounts$Percent <- CellCounts$Count/CellCounts$CellCount
+```
+
+
+```{r}
+level_order <- c('TwoB', 'Three')
+
+CellCounts %>% filter(!is.na(Percent)) %>% 
+ggplot(aes(x = Region, y = Percent, fill = Category)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_point(position=position_dodge(width=0.75)) +
+  theme_prism(base_size = 10) +
+  scale_x_discrete(limits=level_order, labels=c('2b', '3')) +
+  scale_fill_brewer(palette = "Blues") +
+  xlab("Regions within Germarium") +
+  ylab("") +
+  theme (
+    axis.text = element_text(size = 22, face = "bold"),
+    axis.title = element_text(size = 22, face = "bold"),
+    legend.text = element_text(size = 10, face = "bold") 
+  ) +
+  scale_y_continuous(labels = scales::percent)
+
+ggsave("../Results/RC_wCellCounts.pdf", width = 10, height = 8)
+```
+
+```{r}
+level_order <- c('TwoB', 'Three')
+
+ggplot(Rep1, aes(x = Region, y = Count, fill = Category)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_point(position=position_dodge(width=0.75)) +
+  theme_prism(base_size = 10) +
+  scale_x_discrete(limits=level_order, labels=c('2b', '3')) +
+  scale_fill_brewer(palette = "Blues") +
+  xlab("Regions within Germarium") +
+  ylab("") +
+  theme (
+    axis.text = element_text(size = 22, face = "bold"),
+    axis.title = element_text(size = 22, face = "bold"),
+    legend.text = element_text(size = 10, face = "bold") 
+  )
+
+ggsave("../Results/RC_woCellCounts.pdf", width = 10, height = 8)
+```
+

@@ -10,8 +10,9 @@ library(viridis)
 library(ggprism)
 library(RColorBrewer)
 ```
+
 ```{r}
-PavVsg <- read.csv("../RingCanal/Data/PavVsgRCCounts.csv")
+PavVsg <- read.csv("../Data/PavVsgRCCounts.csv")
 ```
 
 ```{r}
