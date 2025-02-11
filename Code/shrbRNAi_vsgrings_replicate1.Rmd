@@ -1,0 +1,44 @@
+---
+title: "shrb(RNAi)_vsgrings1"
+output: html_document
+date: "2025-01-16"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+library(ggprism)
+```
+
+```{r}
+vsg_positive_rings <- read.csv("Data/shrbRNAi_vsgrings_replicate1.csv")
+vsg_positive_rings$Section <- as.factor(vsg_positive_rings$Section)
+```
+```{r}
+vsg_positive_rings %>%
+  mutate(Group = fct_relevel(Group, "Control","Experimental")) %>%
+  ggplot(aes(x = Group, y = VsgRings, fill = Section)) + 
+  geom_boxplot() +
+  geom_point(position = position_dodge(width = 0.75)) +
+  theme_prism() +
+  xlab("Conditions") +
+  ylab("Vsg Positive Rings") +
+  ggtitle("10930ts -> UAS-Shrb(RNAi)") +
+  scale_fill_discrete(labels=c('Region 2b', 'Region3s1'))
+ggsave("Results/shrbRNAi_vsgrings_replicate1.pdf")
+```
+```{r}
+vsg_positive_rings.2b <- vsg_positive_rings %>% filter(Section == "2b")
+
+t.test(VsgRings ~ Group, data = vsg_positive_rings.2b)
+```
+```{r}
+vsg_positive_rings.3s1 <- vsg_positive_rings %>% filter(Section == "3s1")
+
+t.test(VsgRings ~ Group, data = vsg_positive_rings.3s1)
+```
+```{r}
+t.test(VsgRings ~ Group, data = vsg_positive_rings)
+```
+ 

@@ -1,0 +1,47 @@
+---
+title: "shrb(GFP)_pERK positive cells"
+output: html_document
+date: "2024-12-17"
+---
+
+```{r}
+library(tidyverse)
+library(ggprism)
+```
+```{r}
+pERK_positive_cells <- read.csv("../Data/pERK_p_cells_replicate1.csv")
+pERK_positive_cells$Section <- as.factor(pERK_positive_cells$Section)
+```
+```{r}
+pERK_positive_cells %>%
+  mutate(Groups = fct_relevel(Groups, "Control","Experimental")) %>%
+  ggplot(aes(x = Groups, y = perk.stained, fill = Section)) + 
+  geom_boxplot() +
+  geom_point(position = position_dodge(width = 0.75)) +
+  theme_prism() +
+  xlab("Conditions") +
+  ylab("pERK Positive Cells") +
+  ggtitle("10930ts -> UAS-Shrb(GFP)") +
+  scale_fill_discrete(labels=c('Region 2a/2b', 'Region 2b', 'Region3s1'))
+```
+```{r}
+pERK_positive_cells.2a2b <- pERK_positive_cells %>% filter(Section == "2a2b")
+
+t.test(perk.stained ~ Groups, data = pERK_positive_cells.2a2b)
+```
+```{r}
+pERK_positive_cells.2b <- pERK_positive_cells %>% filter(Section == "2b")
+
+t.test(perk.stained ~ Groups, data = pERK_positive_cells.2b)
+```
+```{r}
+pERK_positive_cells.3s1 <- pERK_positive_cells %>% filter(Section == "3s1")
+
+t.test(perk.stained ~ Groups, data = pERK_positive_cells.3s1)
+```
+```{r}
+t.test(perk.stained ~ Groups, data = pERK_positive_cells)
+```
+
+
+

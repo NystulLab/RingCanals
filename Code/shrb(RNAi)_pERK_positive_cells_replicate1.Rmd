@@ -1,0 +1,39 @@
+---
+title: "shrb(RNAi)_pERK positive cells"
+output: html_document
+date: "2025-01-16"
+---
+
+```{r}
+library(tidyverse)
+library(ggprism)
+```
+```{r}
+pERK_positive_cells <- read.csv("../Data/shrb(RNAi) pERK positive cells_replicate 1.csv")
+pERK_positive_cells$Section <- as.factor(pERK_positive_cells$Section)
+```
+```{r}
+pERK_positive_cells %>%
+  mutate(Groups = fct_relevel(Groups, "Control","Experimental")) %>%
+  ggplot(aes(x = Groups, y = perk.stained, fill = Section)) + 
+  geom_boxplot() +
+  geom_point(position = position_dodge(width = 0.75)) +
+  theme_prism() +
+  xlab("Conditions") +
+  ylab("pERK Positive Cells") +
+  ggtitle("10930ts -> UAS-Shrb(RNAi)") +
+  scale_fill_discrete(labels=c('Region 2a/2b', 'Region 2b', 'Region3s1'))
+```
+```{r}
+aov_pERK_positive_cells <- aov(perk.stained ~ Groups * Section, data = pERK_positive_cells)
+TukeyHSD(aov_pERK_positive_cells)
+```
+```{r}
+aov_pERK_positive_cells <- aov(perk.stained ~ Groups * Section, data = pERK_positive_cells)
+TukeyHSD(aov_pERK_positive_cells)
+```
+```{r}
+aov_pERK_positive_cells <- aov(perk.stained ~ Groups, data = pERK_positive_cells)
+TukeyHSD(aov_pERK_positive_cells)
+```
+

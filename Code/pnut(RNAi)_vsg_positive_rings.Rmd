@@ -1,0 +1,34 @@
+---
+title: "Vsg+ Rings in pnut(RNAi)"
+output: html_document
+date: "2025-01-22"
+---
+
+```{r}
+library(tidyverse)
+library(ggprism)
+```
+
+```{r}
+vsg_positive_rings <- read_csv("vsg positive rings.csv")
+```
+```{r}
+show_col_types = FALSE
+```
+
+```{r}
+vsg_positive_rings %>% 
+  mutate(Group = fct_relevel(Group, "Control", "Experimental")) %>%
+  ggplot(aes(x = Group, y = VsgRings)) + 
+  geom_boxplot() +
+  geom_point(position = position_dodge(width = 0.75)) +
+  theme_prism() +
+  ggtitle("10930ts -> UAS-Pnut(RNAi) & Visgun") +
+  xlab("Condition") +
+  ylab("Vsg Positive Rings")
+ggsave("../Results/pnut(RNAi)_vsg_positive_rings.pdf")
+```
+```{r}
+t.test(VsgRings ~ Group, data = vsg_positive_rings)
+```
+
