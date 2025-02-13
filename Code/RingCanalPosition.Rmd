@@ -1,0 +1,68 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+PavRing2 <- read.csv("../Data/RingCanalPositions/csvs/pav rings only.csv")
+PavPnutRing2 <- read.csv("../Data/RingCanalPositions/csvs/pav rings pnut.csv")
+PavMidbody2 <- read.csv("../Data/RingCanalPositions/csvs/Pav_midbody.csv")
+PavPnutNoRing2 <- read.csv("../Data/RingCanalPositions/csvs/pnut_pav_nonring.csv")
+PnutRing2 <- read.csv("../Data/RingCanalPositions/csvs/pnut_rings_only.csv")
+PavPnutNoRing3 <- read.csv("../Data/RingCanalPositions/03csvs/Pav_pnut_noring03.csv")
+PavPnutRing3 <- read.csv("../Data/RingCanalPositions/03csvs/pav_rings_pnut03.csv")
+PavMidbody3 <- read.csv("../Data/RingCanalPositions/03csvs/Pavmidbody03.csv")
+PavRing3 <- read.csv("../Data/RingCanalPositions/03csvs/Pavonly03.csv")
+```
+
+```{r}
+Rings <- data.frame(
+  Type = c(
+    rep("PavRing2", length(PavRing2$X)),
+    rep("PavPnutRing2", length(PavPnutRing2$X)),
+    rep("PavMidbody2", length(PavMidbody2$X)),
+    rep("PavPnutNoRing2", length(PavPnutNoRing2$X)),
+    rep("PnutRing2", length(PnutRing2$X)),
+    rep("PavPnutNoRing3", length(PavPnutNoRing3$X)),
+    rep("PavPnutRing3", length(PavPnutRing3$X)),
+    rep("PavMidbody3", length(PavMidbody3$X)),
+    rep("PavRing3", length(PavRing3$X))    
+  ),
+  FileName = c(
+    rep(2, length(PavRing2$X)),
+    rep(2, length(PavPnutRing2$X)),
+    rep(2, length(PavMidbody2$X)),
+    rep(2, length(PavPnutNoRing2$X)),
+    rep(2, length(PnutRing2$X)),
+    rep(3, length(PavPnutNoRing3$X)),
+    rep(3, length(PavPnutRing3$X)),
+    rep(3, length(PavMidbody3$X)),
+    rep(3, length(PavRing3$X))    
+  ),
+  Position = c(
+     PavRing2$X,
+     PavPnutRing2$X,
+     PavMidbody2$X,
+     PavPnutNoRing2$X, 
+     PnutRing2$X,
+     PavPnutNoRing3$X,
+     PavPnutRing3$X,
+     PavMidbody3$X,
+     PavRing3$X
+  )
+)
+
+Rings <- Rings %>% mutate(Region = ifelse(FileName == 2, 
+                                          ifelse(Position > 1080, "R3", "R2"), 
+                                          ifelse(Position > 1320, "R3", "R2")))
+```
+
+```{r}
+Rings$Type <- factor(Rings$Type, levels = c("PavMidbody2", "PavPnutNoRing2", "PavPnutRing2", "PavRing2", "PnutRing2", "PavMidbody3", "PavPnutNoRing3", "PavPnutRing3", "PavRing3"))
+ggplot(Rings, aes(x = Type, y = Position)) + geom_point(aes(color = Region))
+```
+

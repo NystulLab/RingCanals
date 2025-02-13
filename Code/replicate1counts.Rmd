@@ -1,8 +1,7 @@
 ---
-title: "R Notebook"
+title: "Replicate 1 counts"
 output: html_notebook
 ---
-
 ```{r}
 library(tidyverse)
 library(dplyr)
@@ -12,18 +11,13 @@ library(RColorBrewer)
 ```
 
 ```{r}
-VsgPnut <- read.csv("../Data/VsgPnutRCCounts.csv")
+Rep1 <- read.csv("../RingCanal/Data/Replicate1_pavvsgfas3.csv")
 ```
-
-```{r}
-VsgPnut <- VsgPnut %>% select(FileName, RingCanal, Marker, Region, Category, Frequency) 
-```
-
 
 ```{r}
 level_order <- c('TwoB', 'Three')
 
-ggplot(VsgPnut, aes(x = Region, y = Frequency, fill = Category)) +
+ggplot(Rep1, aes(x = Region, y = Count, fill = Category)) +
   geom_boxplot(outlier.shape = NA) +
   geom_point(position=position_dodge(width=0.75)) +
   theme_prism(base_size = 10) +
@@ -34,8 +28,7 @@ ggplot(VsgPnut, aes(x = Region, y = Frequency, fill = Category)) +
   theme (
     axis.text = element_text(size = 22, face = "bold"),
     axis.title = element_text(size = 22, face = "bold"),
-    legend.text = element_text(size = 15, face = "bold")
-  )
-
- ggsave("../Results/VsgPnutRCCounts.pdf", width = 210, height = 115, units = "mm")
+    legend.text = element_text(size = 10, face = "bold")
+  ) 
 ```
+

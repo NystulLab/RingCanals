@@ -1,6 +1,6 @@
----
-title: "R Notebook"
+title: "pavmcherry with pnut and fas3"
 output: html_notebook
+Date: 12/18/2024
 ---
 
 ```{r}
@@ -12,18 +12,17 @@ library(RColorBrewer)
 ```
 
 ```{r}
-VsgPnut <- read.csv("../Data/VsgPnutRCCounts.csv")
+updatedpavfas3 <- read.csv("../Data/pavpnutfas3_updated.csv")
 ```
 
 ```{r}
-VsgPnut <- VsgPnut %>% select(FileName, RingCanal, Marker, Region, Category, Frequency) 
+updatedpavfas3 <- updatedpavfas3 %>% select(FileName, Rcmarker, Category, Region, Count)
 ```
-
 
 ```{r}
 level_order <- c('TwoB', 'Three')
 
-ggplot(VsgPnut, aes(x = Region, y = Frequency, fill = Category)) +
+ggplot(updatedpavfas3, aes(x = Region, y = Count, fill = Category)) +
   geom_boxplot(outlier.shape = NA) +
   geom_point(position=position_dodge(width=0.75)) +
   theme_prism(base_size = 10) +
@@ -34,8 +33,6 @@ ggplot(VsgPnut, aes(x = Region, y = Frequency, fill = Category)) +
   theme (
     axis.text = element_text(size = 22, face = "bold"),
     axis.title = element_text(size = 22, face = "bold"),
-    legend.text = element_text(size = 15, face = "bold")
-  )
-
- ggsave("../Results/VsgPnutRCCounts.pdf", width = 210, height = 115, units = "mm")
+    legend.text = element_text(size = 10, face = "bold")
+  ) 
 ```
